@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	hello()
+	if !revert() {
+		hello()
+	}
 }
 
 func revert() bool {
