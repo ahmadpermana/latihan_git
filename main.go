@@ -12,4 +12,5 @@ func revert() bool {
 
 func hello() {
 	fmt.Println("Hello Worlds!")
+	fmt.Println("Hello dunia!")
 }
