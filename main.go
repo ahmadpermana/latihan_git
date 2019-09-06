@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	hello()
-	if revert() {
+	if !revert() {
+		hello()
+	} else {
 		fmt.Println("di revert")
 	}
 }
