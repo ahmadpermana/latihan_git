@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 	hello()
+	if revert() {
+		fmt.Println("di revert")
+	}
 }
 
 func revert() bool {
@@ -11,6 +14,5 @@ func revert() bool {
 }
 
 func hello() {
-	fmt.Println("Hello Worlds!")
 	fmt.Println("Hello dunia!")
 }
